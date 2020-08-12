@@ -1,0 +1,6 @@
+#! /usr/bin/env node
+const arc = require('@architect/functions')
+
+const e = { name: 'crawler', payload: { source: 'n/a' } }
+
+;(async () => { await arc.events.publish(e) })()

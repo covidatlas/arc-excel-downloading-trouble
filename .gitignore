@@ -1,5 +1,12 @@
+.arc-env
 .DS_Store
+crawler-cache/
+migrated-cache/
 node_modules/
-scratch/
 sam.json
 sam.yaml
+scratch/
+test-results.txt
+
+crawled.xlsx
+crawled.xlsx.gz
